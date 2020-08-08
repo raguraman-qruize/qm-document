@@ -1,0 +1,10 @@
+version: 2.1
+
+jobs:
+  build:
+    docker:
+        environment:
+          GIT_USER: raguraman_narayanan
+          CIRCLE_BRANCH: master
+          CIRCLE_PROJECT_USERNAME: qruize
+          CIRCLE_PROJECT_REPONAME: qm-document
